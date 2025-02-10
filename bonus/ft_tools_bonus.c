@@ -24,11 +24,11 @@ void ft_init(t_data *data)
     data->img_widht = 0; 
     data->img_height = 0; 
     data->ptr = NULL ;
-    data->relative_path_hero = "//home/eel-garo/Desktop/M.2/so_long/textures/1.xpm";
-    data->relative_path_wall = "//home/eel-garo/Desktop/M.2/so_long/textures/block.xpm";
-    data->relative_path_collact = "//home/eel-garo/Desktop/M.2/so_long/textures/collectible.xpm";
-    data->relative_path_exit = "//home/eel-garo/Desktop/M.2/so_long/textures/exit.xpm"; 
-    data->relative_path_floor = "//home/eel-garo/Desktop/M.2/so_long/textures/space.xpm"; 
+    data->relative_path_hero = "/home/eel-garo/Desktop/M.2/so_long/textures/1.xpm";
+    data->relative_path_wall = "/home/eel-garo/Desktop/M.2/so_long/textures/block.xpm";
+    data->relative_path_collact = "/home/eel-garo/Desktop/M.2/so_long/textures/collectible.xpm";
+    data->relative_path_exit = "/home/eel-garo/Desktop/M.2/so_long/textures/exit.xpm"; 
+    data->relative_path_floor = "/home/eel-garo/Desktop/M.2/so_long/textures/space.xpm"; 
     data->x_p = 0;
     data->y_p = 0;
     data->cl = 0;
