@@ -24,7 +24,7 @@ int ft_surrounded_by_walls_check(t_data *data)
         while (y < data->y && data->ptr[x][y])
         {
             if ((x == 0 || x == data->x - 1 || y == 0 || y == data->y - 1 ) &&
-            (!data->ptr[x][y] || data->ptr[x][y] != '1')) //! 
+            (!data->ptr[x][y] || data->ptr[x][y] != '1'))
             {
                 return (0);
             }
